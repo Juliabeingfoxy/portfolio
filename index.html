@@ -4,135 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <title>Julia's Portfolio</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <title>Julia's Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="neutral-theme">
       <h1>
-        Hello! My name is <span>Julia Auer</span> <br />
+        Hello! My name is <span style="color: rgb(20, 137, 220)">Julia Auer</span> <br />
         I'm a Web Developer
       </h1>
-      <a href="">Find out more</a>
+      <a class="header-link button" href="#about">Find out more</a>
     </header>
     <main>
-      <section class="about">
+      <section class="about primary-theme" id="about">
         <h2>About Me</h2>
-        <div>
+        <div class="about-container">
           <img
             src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
             alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
-            width="500"
+            class="about-img"
           />
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi iste
-            distinctio dolorem sed eveniet placeat, doloribus tempore quam
-            aperiam! Consequatur, eaque sint tempora consectetur cum enim
-            mollitia cupiditate repellendus fuga.
-          </p>
-          <p>
-            I try to write something about me. 'Cause that's what it is all
-            about.First of all: I love the North. Especially Amrum.
-          </p>
-          <a href="www.amrum.de">My resume</a>
+          <div class="about-text">
+            <p>
+              I try to write something about me. 'Cause that's what it is all
+              about.First of all: I love the North. Especially Amrum.
+            </p>
+            <a href="#" class="button">My Resume</a>
+          </div>
         </div>
         <blockquote>"On ne vois bien qu'avec le coeur."</blockquote>
         <cite>Antoine de Saint-Exupéry</cite>
       </section>
-      <section class="projects">
+      <section class="projects neutral-theme">
         <h2>My Projects</h2>
         <article>
-          <h3>My very first project as a fox</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            quibusdam doloribus ut esse labore similique et, fugit eum numquam
-            repellendus illo deserunt, ab iure quod nisi nostrum fugiat dicta
-            rerum?
-          </p>
-          <a href="#">See it online</a>
-          <a href="">Fork it on Github</a>
+          <div class="article-text">
+              <h3>My very first project as a fox</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                quibusdam doloribus ut esse labore similique et, fugit eum numquam
+                repellendus illo deserunt, ab iure quod nisi nostrum fugiat dicta
+                rerum?
+              </p>
+              <a href="#" class="button">See it online</a>
+              <a href="" class="button">Fork it on Github</a>
+        </div>
           <img
-          src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
-          alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
-          width="500"
-        />
+            src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
+            alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
+            width="500"
+            class="article-img"
+          />
         </article>
         <article>
-          <h3>My very second project as a fox</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            quibusdam doloribus ut esse labore similique et, fugit eum numquam
-            repellendus illo deserunt, ab iure quod nisi nostrum fugiat dicta
-            rerum?
-          </p>
-          <a href="#">See it online</a>
-          <a href="">Fork it on Github</a>
+          <div class="article-text">
+              <h3>My very second project as a fox</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                quibusdam doloribus ut esse labore similique et, fugit eum numquam
+                repellendus illo deserunt, ab iure quod nisi nostrum fugiat dicta
+                rerum?
+              </p>
+              <a href="#" class="button">See it online</a>
+              <a href="" class="button">Fork it on Github</a>
+        </div>
           <img
-          src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
-          alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
-          width="500"
-        />
+            src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
+            alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
+            width="500"
+            class="article-img"
+          />
         </article>
         <article>
-          <h3>My very third project as a fox</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            quibusdam doloribus ut esse labore similique et, fugit eum numquam
-            repellendus illo deserunt, ab iure quod nisi nostrum fugiat dicta
-            rerum?
-          </p>
-          <a href="#">See it online</a>
-          <a href="">Fork it on Github</a>
+          <div class="article-text">
+              <h3>My very third project as a fox</h3>
+              <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+              quibusdam doloribus ut esse labore similique et, fugit eum numquam
+              repellendus illo deserunt, ab iure quod nisi nostrum fugiat dicta
+              rerum?
+              </p>
+               <a href="#" class="button">See it online</a>
+               <a href="" class="button">Fork it on Github</a>
+        </div>
           <img
-          src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
-          alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
-          width="500"
-        />
+            src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
+            alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
+            width="500"
+            class="article-img"
+          />
         </article>
         <article>
-          <h3>My very fourth project as a fox</h3>
-          <p>
+          <div class="article-text">
+            <h3>My very fourth project as a fox</h3>
+            <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             quibusdam doloribus ut esse labore similique et, fugit eum numquam
             repellendus illo deserunt, ab iure quod nisi nostrum fugiat dicta
             rerum?
-          </p>
-          <a href="#">See it online</a>
-          <a href="">Fork it on Github</a>
+            </p>
+            <a href="#" class="button">See it online</a>
+            <a href="" class="button">Fork it on Github</a>
+        </div>
           <img
-          src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
-          alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
-          width="500"
-        />
+            src="./images/timon-reinhard-qIHFaaR7oUo-unsplash.webp"
+            alt="Sand dunes of the island Amrum with wooden stairs to wander through. Sun is shining, a few clouds on the light blue sky in the evening light."
+            width="500"
+            class="article-img"
+          />
         </article>
       </section>
-      <section>
+      <section class="contact primary-theme">
         <h2>Contact</h2>
         <p>
           If you want to talk about Amrum with me, please drop me a message!
         </p>
-        <a href="mailto:julia_auer@gmx.at">Write an email</a>
+        <a href="mailto:julia_auer@gmx.at" class="button">Write an email</a>
       </section>
     </main>
     <footer>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/julia-auer-a7a9171a3/"
+      <ul class="social">
+        <li class="social-item">
+          <a
+           class="social-link linkedin"
+           href="https://www.linkedin.com/in/julia-auer-a7a9171a3/"
             >LinkedIn</a
           >
         </li>
+        <li class="social-item">
+          <a
+            class="social-link github"
+            href="https://github.com/Juliabeingfoxy"
+            >GitHub</a
+          >
+        </li class="social-item">
         <li>
-          <a href="https://github.com/Juliabeingfoxy">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/julia-auer-a7a9171a3/"
+          <a 
+            class="social-link twitter"
+            href="https://www.linkedin.com/in/julia-auer-a7a9171a3/"
             >LinkedIn</a
           >
         </li>
-        <li>
-          <a href="https://github.com/Juliabeingfoxy">GitHub</a>
+        <li class="social-item">
+          <a
+            class="social-link youtube" 
+            href="https://github.com/Juliabeingfoxy">GitHub</a>
         </li>
       </ul>
       <p>&copy; 2022 - JA</p>
