@@ -1,7 +1,7 @@
 :root {
   /*declare variables */
-  --primary: #1f87d7;
-  --dk-grey: #333;
+  --primary:#8FBDD3;
+  --dk-grey: #A97155;
   --max-width: 960px;
   --spacing: 4rem;
   --img-width: 350px;
@@ -236,7 +236,7 @@ footer {
 }
 
 .linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/icon-linkedin.png);
 }
 
 .twitter {
@@ -244,11 +244,11 @@ footer {
 }
 
 .github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/icon-github.png);
 }
 
 .youtube {
-  background-image: url(images/youtube.svg);
+  background-image: url(../images/icon-youtube.png);
 }
 
 .social-link:hover {
