@@ -5,13 +5,13 @@
   --max-width: 960px;
   --spacing: 4rem;
   --img-width: 350px;
+  --white: white ;
 }
-
-/* add a favicon if i have time */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
   display: flex;
   justify-content: center;
@@ -44,15 +44,15 @@ p {
 }
 
 .neutral-theme {
-  background-color: white;
+  background-color: var(--white);
   --button-color: var(--primary);
-  --button-hover-color: white;
+  --button-hover-color: var(--white);
 }
 
 .primary-theme {
-  color: white;
+  color: var(--white);
   background-color: var(--primary);
-  --button-color: white;
+  --button-color: var(--white);
   --button-hover-color: var(--primary);
 }
 
@@ -209,7 +209,7 @@ footer {
   padding: var(--spacing);
   text-align: center;
   background-color: var(--dk-grey);
-  color: white;
+  color: var(--white);
 }
 
 .social {
@@ -267,7 +267,7 @@ footer {
 }
 
 .header-link:hover::after {
-  border-top-color: white;
+  border-top-color: var(--white);
   transition: all 0.3s ease-in-out;
 }
 
